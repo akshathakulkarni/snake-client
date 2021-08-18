@@ -15,6 +15,20 @@ const connect = function() {
   conn.on('connect', () => { // Sending data to server
     conn.write('Hello from client!');
     conn.write('Name: AAK');
+    /*conn.write('Move: down');
+    setTimeout(() => {
+      conn.write('Move: left');
+    }, 50);
+    setTimeout(() => {
+      conn.write('Move: right');
+    }, 50);
+    setTimeout(() => {
+      conn.write('Move: left');
+    }, 50);
+    setInterval(() => {
+      conn.write('Move: up');
+    }, 50);*/
+    
   });
   conn.on('data', (data) => { // Receiving data from server.
     console.log(`Server said : ${data}`);
