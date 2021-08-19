@@ -16,6 +16,15 @@ handleUserInput = (key) => {
   if (key === 'd') {
     connection.write('Move: right');
   }
+  if (key === 'h') {
+    connection.write('Say: Hi');
+  }
+  if (key === 'a') {
+    connection.write('Say: Hey all');
+  }
+  if (key === 'H') {
+    connection.write('Say: Hello');
+  }
 };
 
 /**
