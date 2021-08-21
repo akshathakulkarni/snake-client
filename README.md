@@ -8,9 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
-
+<img width="542" alt="Screen Shot 2021-08-21 at 2 42 50 PM" src="https://user-images.githubusercontent.com/84300358/130332085-4abd3730-6eea-4f62-b7e4-8a5e728aaa16.png">
 
 ## Getting Started
 
